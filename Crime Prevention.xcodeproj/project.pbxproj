@@ -14,6 +14,8 @@
 		BA200CF01B66D396000ABAE4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA200CEF1B66D396000ABAE4 /* Images.xcassets */; };
 		BA200CF31B66D396000ABAE4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA200CF11B66D396000ABAE4 /* LaunchScreen.xib */; };
 		BA200CFF1B66D396000ABAE4 /* Crime_PreventionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200CFE1B66D396000ABAE4 /* Crime_PreventionTests.swift */; };
+		BA200D0B1B66D666000ABAE4 /* ContactTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA200D091B66D666000ABAE4 /* ContactTableViewCell.swift */; };
+		BA200D0C1B66D666000ABAE4 /* ContactTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BA200D0A1B66D666000ABAE4 /* ContactTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		BA200CF81B66D396000ABAE4 /* Crime PreventionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Crime PreventionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA200CFD1B66D396000ABAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA200CFE1B66D396000ABAE4 /* Crime_PreventionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crime_PreventionTests.swift; sourceTree = "<group>"; };
+		BA200D091B66D666000ABAE4 /* ContactTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactTableViewCell.swift; sourceTree = "<group>"; };
+		BA200D0A1B66D666000ABAE4 /* ContactTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 		BA200CE31B66D396000ABAE4 /* Crime Prevention */ = {
 			isa = PBXGroup;
 			children = (
+				BA200D081B66D5E7000ABAE4 /* Custom Cells */,
 				BA200CE61B66D396000ABAE4 /* AppDelegate.swift */,
 				BA200CE81B66D396000ABAE4 /* FirstViewController.swift */,
 				BA200CEA1B66D396000ABAE4 /* SecondViewController.swift */,
@@ -113,6 +118,15 @@
 				BA200CFD1B66D396000ABAE4 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BA200D081B66D5E7000ABAE4 /* Custom Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA200D091B66D666000ABAE4 /* ContactTableViewCell.swift */,
+				BA200D0A1B66D666000ABAE4 /* ContactTableViewCell.xib */,
+			);
+			name = "Custom Cells";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +209,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA200D0C1B66D666000ABAE4 /* ContactTableViewCell.xib in Resources */,
 				BA200CEE1B66D396000ABAE4 /* Main.storyboard in Resources */,
 				BA200CF31B66D396000ABAE4 /* LaunchScreen.xib in Resources */,
 				BA200CF01B66D396000ABAE4 /* Images.xcassets in Resources */,
@@ -215,6 +230,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA200D0B1B66D666000ABAE4 /* ContactTableViewCell.swift in Sources */,
 				BA200CEB1B66D396000ABAE4 /* SecondViewController.swift in Sources */,
 				BA200CE71B66D396000ABAE4 /* AppDelegate.swift in Sources */,
 				BA200CE91B66D396000ABAE4 /* FirstViewController.swift in Sources */,
